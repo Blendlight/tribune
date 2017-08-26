@@ -1,0 +1,286 @@
+/*Colors*/
+
+.color-pink
+{
+	color:#ed7e59;
+}
+
+/*##Colors*/
+
+/*Borders*/
+.line-1-gray
+{
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+}
+/*##borders*/
+.flex-center{
+	display: flex;
+	justify-content: center;
+}
+
+.main-menu
+{
+	border-bottom: 1px solid gray;
+}
+@media (min-width:1px)
+{
+	.main-menu li
+	{
+
+	}
+}
+.main-menu a
+{
+	color:gray;
+}
+.navbar
+{
+	margin-bottom: 0;
+}
+
+.site-logo .text-center>img.img-responsive
+{
+	display: inline;
+}
+
+.text-upper
+{
+	text-transform: uppercase;
+}
+.logo-date
+{
+	list-style: none;
+}
+.logo-date li
+{
+	display: inline;
+	border-right: 1px solid gray;
+	padding-right: 5px;
+}
+.logo-date li:last-child
+{
+	border-right: none;
+}
+.secondary-menu
+{
+	margin-top: 10px;
+	border-top:2px solid black;
+	padding-top: 5px;
+}
+.first-menu
+{
+	padding-bottom:5px;
+	min-height: 0
+}
+.first-menu li
+{
+	margin: 0 2px;
+}
+.first-menu a
+{
+	font-size: 12px;
+	color:black;
+	font-weight: 700;
+
+}
+.first-menu li a:hover{
+	background:none;
+}
+
+.second-menu
+{
+	font-size: 11px;
+	min-height: auto;
+	padding-bottom: 5px;
+	padding-top:5px;
+}
+.second-menu li:last-child a
+{
+	border-right: none;
+}	
+.second-menu li a
+{
+	padding:2px 20px;
+	color:black;
+	border-right:1px solid gray;
+	border-radius: 2px;
+}
+
+.second-menu li a:hover
+{
+	background:gray;
+	color:white;
+}
+
+
+@media (min-width:768px)
+{	.first-menu li a
+	{
+		padding:0px 5px;
+	}
+}
+
+.line-gray-1
+{
+	border-bottom:1px solid gray;
+}
+
+.search
+{
+	float: right;
+	margin-top: 5px;
+	border:1px solid gray;
+
+}
+
+.search input[type=search]
+{
+	border:none;
+	margin-right: -3px;
+	padding: 2px;
+	border-right: 2px solid gray;
+}
+
+.search button
+{
+	background: none;
+	border: none;
+	margin: 0;
+}
+
+.main-section-1
+{
+	border-right: 1px solid gray;
+
+}
+
+.line-bottom-thick
+{
+	border-bottom: 5px solid gray;
+	margin-bottom: 10px;
+}
+
+.section-1
+{
+	border-right: 1px solid gray;
+}
+
+
+.top-news, .news-2{
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px dotted gray;
+}
+
+.top-news .top-news-img
+{
+	padding-right:0;
+}
+
+.top-news-text
+{
+	padding-left: 7px;
+}
+
+.news-2-small{
+
+}
+
+/*
+two possible ways to set text-decoration none 
+1 using a.(class-name)
+2 using !important with text-decoration:none !important;
+*/
+.top-news-title, .top-news-text-link, .news-title, .no-decoration{
+	text-decoration: none !important;
+}
+
+.img-100
+{
+	width:100%;
+	height: auto;
+}
+.color-black
+{
+	color:black;
+}
+
+.padding-0
+{
+	padding: 0;
+}
+
+
+.red{
+	color:red;
+	font-size: 15px;
+}
+
+.fieldset
+{
+	border-top:2px solid black;
+
+}
+
+.legend
+{
+	padding:0 10px;
+	margin:0;
+	border-bottom: none;
+	width:auto;
+}
+
+.btn-fb, .btn-tw
+{
+	width:100%;
+	margin:5px 0px;
+	padding:10px;
+	font-size: 18px;
+	color:white;
+	border:none;
+}
+.btn-fb
+{
+	background: #3b5998;
+}
+
+.btn-tw
+{
+	background: #00aced;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+.footer
+{
+	background: #f3f0e7;
+	margin-top:100px;
+	padding:10px 20px;
+}
+
+
+.categories-links
+{
+	padding:0px 20px;
+}
+
+.categories-links ul
+{
+	list-style: none;
+	padding-left: 30px;
+}
+
+.footer-end
+{
+	border-top:5px solid white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.footer-images img
+{
+	width: 32.2%;
+}
