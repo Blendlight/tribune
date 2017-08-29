@@ -254,6 +254,29 @@ a{
 	text-decoration: none !important;
 }
 
+.gossip
+{
+	background: #f3f0e7;
+	border-top:3px solid #ee8360;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.gossip *:not(a)
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.gossip img
+{
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+
+
+
 .footer
 {
 	background: #f3f0e7;
@@ -283,4 +306,55 @@ a{
 .footer-images img
 {
 	width: 32.2%;
+}
+
+.life_style {
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+
+.life-style-list
+{
+	padding-left: 0;
+	margin-top:25px;
+	list-style: none;
+
+}
+
+.life-style-list li
+{
+	margin-bottom:20px;
+}
+
+.pk-news:not(:last-child){
+	border-right: 1px solid gray;
+}
+
+.editorial-news
+{
+	background: #f3f0e7;
+	border-top:3px solid #ee8360;
+	margin-bottom: 10px;
+}
+
+.editorial-news p
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.gossip img
+{
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+.margin-top-0
+{
+	margin-top:0;
+}
+.margin-top-20
+{
+	margin-top:20px;
 }
